@@ -14,7 +14,7 @@ Integration with MLOps Pipelines: Seamlessly incorporate explainability into you
 ### Installation
 bashpip install xai-vision
 For development installation:
-bashgit clone https://github.com/yourusername/xai-vision.git
+bashgit clone https://github.com/Harrypatria/xai-vision.git
 cd xai-vision
 pip install -e .
 Quick Start
