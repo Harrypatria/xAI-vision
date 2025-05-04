@@ -5,7 +5,7 @@ This module provides functionality for explaining models in terms of
 feature importance, a fundamental concept for understanding which
 features have the greatest impact on model predictions.
 
-Author: Your Name
+Author: Harry Patria
 License: MIT
 """
 
