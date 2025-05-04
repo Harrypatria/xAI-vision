@@ -4,7 +4,7 @@ Base Explainer Module
 This module provides the base class that all explainers in the XAI-Vision
 toolkit inherit from, establishing a common interface and shared functionality.
 
-Author: Your Name
+Author: Harry Patria
 License: MIT
 """
 
