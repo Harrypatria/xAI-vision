@@ -5,7 +5,7 @@ This module provides functionality for explaining models using SHAP
 (SHapley Additive exPlanations), a game theoretic approach to explain
 the output of any machine learning model.
 
-Author: Your Name
+Author: Harry Patria
 License: MIT
 """
 
