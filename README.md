@@ -12,6 +12,7 @@ Customizable Reports: Generate publication-quality visualizations and reports
 Integration with MLOps Pipelines: Seamlessly incorporate explainability into your ML workflows
 
 ### Installation
+```
 bashpip install xai-vision
 For development installation:
 bashgit clone https://github.com/Harrypatria/xai-vision.git
@@ -21,7 +22,7 @@ Quick Start
 pythonimport xai_vision as xv
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_breast_cancer
-
+```
 ### Structure
 ```
 xai-vision/
