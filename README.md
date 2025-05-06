@@ -112,27 +112,38 @@ xai-vision/
 ```
 
 ### Load data and train a model
+```
 data = load_breast_cancer()
 X, y = data.data, data.target
 feature_names = data.feature_names
 
 model = RandomForestClassifier(random_state=42)
 model.fit(X, y)
+```
 
 ### Create an explainer object
+```
 explainer = xv.ModelExplainer(model, X, feature_names=feature_names)
+```
 
 ### Generate a comprehensive explanation dashboard
+```
 dashboard = explainer.explain_dashboard(title="Breast Cancer Classification Model")
 dashboard.serve()  # Launches an interactive dashboard in your browser
+```
 
 ### Or generate specific visualizations
+```
 explainer.plot_feature_importance()
 explainer.plot_partial_dependence(features=['mean radius', 'mean texture'])
 explainer.plot_shap_summary()
+```
 
 ### Generate an explanation report
+```
 report = explainer.generate_report(output_path="model_explanation_report.html")
+```
+
 Documentation
 Comprehensive documentation is available at https://xai-vision.readthedocs.io, including:
 
@@ -154,6 +165,7 @@ Check out the examples directory for detailed case studies.
 Citation
 
 If you use XAI-Vision in your research or applications, please cite:
+```
 @software{xai_vision2025,
   author = {Harry Patria},
   title = {XAI-Vision: Explainable AI Visualization Toolkit},
@@ -161,7 +173,7 @@ If you use XAI-Vision in your research or applications, please cite:
   url = {https://github.com/Harrypatria/xai-vision},
   version = {1.0.0}
 }
-
+```
 
 ---
 
