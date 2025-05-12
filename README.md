@@ -2,6 +2,7 @@
 
 ### Overview
 XAI-Vision is a comprehensive toolkit for generating intuitive, interactive visualizations to explain complex machine learning models. As AI systems become increasingly integrated into critical decision-making processes across industries, the need for transparency and explainability has never been more vital.
+
 Developed by practitioners with decades of experience in machine learning interpretability, XAI-Vision bridges the gap between sophisticated AI models and human understanding, making black-box algorithms more transparent and trustworthy.
 Key Features
 
