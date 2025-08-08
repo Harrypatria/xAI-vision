@@ -175,8 +175,6 @@ If you use XAI-Vision in your research or applications, please cite:
   version = {1.0.0}
 }
 ```
-
-```
 Happy coding! 🚀
 
 *Remember: Every expert was once a beginner. Your programming journey is unique, and we're here to support you every step of the way.*
